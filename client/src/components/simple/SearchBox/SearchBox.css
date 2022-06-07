@@ -1,0 +1,21 @@
+@import "./../../../globalStyles/variables.css";
+
+.SearchBox {
+    background-color: black;
+    border: 1px solid black;
+    opacity: 49%;
+    height: 55px;
+    width: 282px;
+    font-size: 22px;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.SearchBox__input {
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    line-height: 50px;
+}
