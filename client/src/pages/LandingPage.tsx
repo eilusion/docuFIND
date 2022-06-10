@@ -2,6 +2,7 @@ import React from 'react';
 import "./LandingPage.css";
 import { Header } from "./../components/simple/Header/Header"
 import { SearchBox } from './../components/simple/SearchBox/SearchBox';
+import { BackgroundImage } from '../components/simple/BackgroundImage/BackgroundImage';
 
 type TLandingPageProps = {
     
@@ -10,6 +11,11 @@ type TLandingPageProps = {
 export const LandingPage = (props: TLandingPageProps) => {
   return (
     <div className="DocuFind">
+      <div className="DocuFind__backgroundImage">
+        <BackgroundImage 
+          image="docuFINDelephant.jpg"
+        />
+      </div>
       <div className="DocuFind__header">
         <Header 
           text="DocuFIND"

@@ -9,7 +9,6 @@ body {
 .DocuFind {
     width: 1280px;
     height: 873px;
-    background-image: url("./../images/docuFINDelephant.jpg");
     display: flex;
     flex-direction: column;
     align-items: center;
