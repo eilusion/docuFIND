@@ -1,4 +1,5 @@
 import React from 'react'
+import "./BackgroundImage.css"
 
 type TBackgroundImageProps = {
   image: string,
@@ -6,6 +7,6 @@ type TBackgroundImageProps = {
 
 export const BackgroundImage = (props: TBackgroundImageProps) => {
   return (
-      <img src={props.image} alt="" />
+      <img className='BackgroundImage' src={props.image} alt="" />
     )
 }

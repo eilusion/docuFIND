@@ -10,7 +10,7 @@ const options = {
   }
 
 router.use("/dist", express.static(`${process.cwd()}/dist/bundled`))
-router.use(express.static('/client', options));
+router.use(express.static('public', options));
 router.get("/*", getClientApp);
 
 server

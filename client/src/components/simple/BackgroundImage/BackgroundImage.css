@@ -1,6 +1,6 @@
 @import "./../../../globalStyles/variables.css";
 
-img {
+.BackgroundImage {
     position: fixed;
     left: 0px;
     top: 0px;

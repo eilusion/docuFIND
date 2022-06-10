@@ -11,11 +11,9 @@ type TLandingPageProps = {
 export const LandingPage = (props: TLandingPageProps) => {
   return (
     <div className="DocuFind">
-      <div className="DocuFind__backgroundImage">
         <BackgroundImage 
           image="docuFINDelephant.jpg"
         />
-      </div>
       <div className="DocuFind__header">
         <Header 
           text="DocuFIND"
